@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fridge Freshi</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Prompt:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section id="top">
+      <div class="nav-container">
+        <nav class="nav-bar">
+          <ul class="nav-list">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#popular-recipes">Popular</a></li>
+          </ul>
+        </nav>
+      </div>
+    </section>
+
+    <header>
+      <div class="header-container">
+        <div class="header-text">
+          <h1>Find Recipes With What You Have</h1>
+          <p>
+            Enter the ingredients you already have in your fridge and we'll show
+            you delicious Kenyan recipes you can make.
+          </p>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section id="fridge-status">
+        <div class="fridge-status-container">
+          <h2>What ingredients do you have?</h2>
+          <p id="ingredients">
+            Enter ingredients from your fridge and we'll find recipes for you.
+          </p>
+        </div>
+      </section>
+
+      <section id="add-ingredients">
+        <div class="form-container">
+          <form id="add-ingredients-form">
+            <input
+              type="text"
+              id="item-name"
+              placeholder="Enter ingredients"
+              required
+            />
+            <button type="submit">Add</button>
+          </form>
+        </div>
+      </section>
+
+      <section id="kenyan-recipes">
+        <div class="recipe-container">
+          <h2>Popular Kenyan Recipes</h2>
+          <div class="recipe-list">
+            <div class="recipe-item">
+              <img src="https://shorturl.at/D7vwF" alt="Beef Stew" />
+              <p>Beef Stew</p>
+            </div>
+            <div class="recipe-item">
+              <img src="https://shorturl.at/hqjtW" alt="Rice and Peas" />
+              <p>Rice and Peas</p>
+            </div>
+            <div class="recipe-item">
+              <img src="https://shorturl.at/pzJCB" alt="Matoke" />
+              <p>Matoke</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-container">
+        <p>&copy; 2025 Fridge Freshi - Kenyan Recipes at Your Fingertips</p>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
